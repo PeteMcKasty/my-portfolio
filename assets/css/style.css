@@ -61,19 +61,21 @@ a {
 }
 
 .content {
-    padding: 40px 20px 20px 20px;
+    padding-top: 40px;
     width: 75%;
     position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .content h2 {
-    padding: 0% 0% 0% 20%;
-    color:rgb(28, 28, 173);
+    padding: 0% 0% 20% 15%;
+    color:rgb(49, 25, 155);
     float: left;
+    font-size: 200%;
 }
 
 #about-me {
+    font-size: 100%;
     text-align: justify;
-    padding: 0px 0px 0px 40%;
+    padding-left: 40%;
 }
