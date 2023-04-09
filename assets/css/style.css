@@ -59,3 +59,21 @@ a {
     height: 200px;
     width: 200px;
 }
+
+.content {
+    padding: 40px 20px 20px 20px;
+    width: 75%;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content h2 {
+    padding: 0% 0% 0% 20%;
+    color:rgb(28, 28, 173);
+    float: left;
+}
+
+#about-me {
+    text-align: justify;
+    padding: 0px 0px 0px 40%;
+}
