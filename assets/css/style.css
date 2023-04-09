@@ -11,8 +11,8 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(https://www.freewebheaders.com/gc-abstract-1600x400/colorful-digital-lights-abstract-art-banner_gc-banner-1600x400.jpg);
-    height: 200px;
+    background-image: url(https://www.freewebheaders.com/wp-content/gallery/planets-galaxies/space-header-8624-1024x300.jpg);
+    height: 150px;
 }
 
 .header h1 {
@@ -41,4 +41,21 @@ body {
 a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+    height: 200px;
+}
+
+.section h2 {
+    padding: 150px 0px 30px 30%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    height: 200px;
+    width: 200px;
 }
