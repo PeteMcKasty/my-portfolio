@@ -65,6 +65,7 @@ a {
     padding-top: 50px;
     width: 95%;
     position: relative;
+    display: inline-block
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -84,6 +85,8 @@ a {
 
 .work {
     padding-top: 50px;
+    position: relative;
+    display: inline-block;
     align-items: end;
     width: 95%;
     height: 500px;
@@ -98,9 +101,7 @@ a {
 }
 
 #refactor {
-    background-image: url(https://www.freewebheaders.com/wp-content/gallery/artistic-abstract-hero-headers/multicolor-disco-lights-background-music-vector-hd.jpg);
-    height: 400px;
-    width: 600px;
+    position: absolute;
     margin-left: 20%;
 }
 
