@@ -84,13 +84,12 @@ a {
 }
 
 .work {
-    padding-top: 50px;
-    position: relative;
-    display: inline-block;
-    align-items: end;
+    padding: 30px;
     width: 95%;
-    height: 500px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    color: white;
     background-color: lightblue;
 }
 
@@ -102,6 +101,22 @@ a {
 
 #refactor {
     position: absolute;
-    margin-left: 20%;
+    left: 45%;
+    bottom: 650px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img2 {
+    position: absolute;
+    top: 42%;
+    right: 44%;
+    z-index: 1;
+}
+
+#futureproj {
+    position: absolute;
+    top: 42%;
+    right: 48%;
+    z-index: 2;
 }
 
