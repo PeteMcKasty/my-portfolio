@@ -147,3 +147,21 @@ a {
     background-color: lightblue;
     border-bottom: solid 5px rgb(49, 25, 155);
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    nav {
+        order: 1;
+    }
+    main {
+        order: 2;
+    }
+    article {
+        order: 3;
+    }
+    details {
+        order: 4;
+    }
+}
