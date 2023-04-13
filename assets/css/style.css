@@ -61,7 +61,7 @@ a {
     width: 200px;
 }
 
-.content {
+.content, #contact {
     padding-top: 50px;
     width: 95%;
     position: relative;
@@ -69,7 +69,7 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.content h2 {
+.content h2, #contact h2 {
     padding: 0% 0% 20% 15%;
     color:rgb(49, 25, 155);
     float: left;
@@ -81,12 +81,13 @@ a {
     text-align: justify;
     padding-left: 40%;
     background-color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .work {
     padding: 30px;
     width: 95%;
-    height: 700px;
+    height: 500px;
     position: relative;
     text-align: center;
     color: white;
@@ -102,21 +103,47 @@ a {
 #refactor {
     position: absolute;
     left: 45%;
-    bottom: 650px;
+    bottom: 445px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #img2 {
     position: absolute;
-    top: 42%;
+    top: 62%;
     right: 44%;
     z-index: 1;
 }
 
 #futureproj {
     position: absolute;
-    top: 42%;
+    top: 62%;
     right: 48%;
     z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#img3 {
+    position: absolute;
+    top: 62%;
+    right: 22%;
+    z-index: 1;
+}
+#futureproj2 {
+    position: absolute;
+    top: 62%;
+    right: 28%;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactelements {
+    padding: 10px;
+    margin-left: 5%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    color:rgb(49, 25, 155);
+    background-color: lightblue;
+    border-bottom: solid 5px rgb(49, 25, 155);
+}
