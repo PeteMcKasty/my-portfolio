@@ -116,6 +116,8 @@ a {
 
 #futureproj {
     position: absolute;
+    color: black;
+    font-weight: bolder;
     top: 62%;
     right: 48%;
     z-index: 2;
